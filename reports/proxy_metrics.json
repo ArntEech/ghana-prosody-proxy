@@ -1,0 +1,9 @@
+{
+    "model": "TF-IDF + Textual Prosodic Proxy Features + Logistic Regression",
+    "accuracy": 0.5,
+    "macro_f1": 0.4666666666666666,
+    "weighted_f1": 0.4666666666666666,
+    "n_train": 14,
+    "n_test": 6,
+    "proxy_feature_count": 21
+}
