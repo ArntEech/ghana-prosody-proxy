@@ -1,0 +1,21 @@
+text,label,language_mix,elongated_token_count,max_character_repetition,elongation_index,exclamation_count,question_count,ellipsis_count,punctuation_stack_count,max_punctuation_stack,uppercase_ratio,all_caps_token_count,emoji_count,emoji_present,final_particle_present,final_particle_type,interjection_count,interjection_present,text_length,word_count,pidgin_marker_count,akan_marker_count,language_mix_score,language_mix_present
+Chale this service is really good oo 😭😂,positive,mixed,0,2,0.0,0,0,0,0,0,0.03333333333333333,0,2,1,1,oo,1,1,39,7,1,1,0.2857142857142857,1
+This process is terrible!!! Why are they doing this?,negative,english,0,3,0.0,3,1,0,1,3,0.05,0,0,0,0,none,0,0,52,9,0,0,0.0,0
+I dey go campus now oo,neutral,pidgin,0,2,0.0,0,0,0,0,0,0.058823529411764705,0,0,0,1,oo,0,0,22,6,2,1,0.5,1
+CHALEEEE!!! This is amazing 😭🔥,positive,mixed,1,4,0.25,3,0,0,1,3,0.42857142857142855,1,2,1,0,none,0,0,30,4,0,0,0.0,0
+Hmm I don't really understand this update,neutral,english,0,2,0.0,0,0,0,0,0,0.058823529411764705,0,0,0,0,none,1,1,41,8,0,0,0.0,0
+The deadline has changed again!!!,negative,english,0,3,0.0,3,0,0,1,3,0.038461538461538464,0,0,0,0,none,0,0,33,5,0,0,0.0,0
+Ei this thing be serious paa,negative,mixed,0,2,0.0,0,0,0,0,0,0.043478260869565216,0,0,0,1,paa,1,1,28,6,1,2,0.5,1
+"The service is okay, nothing special",neutral,english,0,0,0.0,0,0,0,0,0,0.03333333333333333,0,0,0,0,none,0,0,36,6,0,0,0.0,0
+WETIN?! You dey joke?,negative,pidgin,0,0,0.0,1,2,0,1,2,0.4,1,0,0,0,none,0,0,21,4,1,0,0.25,1
+Medaase for the support 🙏,positive,akan,0,2,0.0,0,0,0,0,0,0.05,0,1,1,0,none,0,0,25,4,0,1,0.25,1
+Chaleeee I cannot believe this happened 😭,negative,mixed,1,4,0.16666666666666666,0,0,0,0,0,0.058823529411764705,0,1,1,0,none,0,0,41,6,0,0,0.0,0
+The event was well organized 👏👏,positive,english,0,2,0.0,0,0,0,0,0,0.041666666666666664,0,2,1,0,none,0,0,31,5,0,0,0.0,0
+"Hmmm, I am not sure about this",neutral,english,1,3,0.14285714285714285,0,0,0,0,0,0.08695652173913043,0,0,0,0,none,1,1,30,7,1,0,0.14285714285714285,1
+This is NOT acceptable!!!,negative,english,0,3,0.0,3,0,0,1,3,0.21052631578947367,1,0,0,0,none,0,0,25,4,0,0,0.0,0
+Ei the food was so good paa 😋,positive,mixed,0,2,0.0,0,0,0,0,0,0.047619047619047616,0,1,1,1,paa,1,1,29,7,1,2,0.42857142857142855,1
+I will check it tomorrow,neutral,english,0,2,0.0,0,0,0,0,0,0.05,0,0,0,0,none,0,0,24,5,0,0,0.0,0
+Why is this happening again???,negative,english,0,3,0.0,0,3,0,1,3,0.043478260869565216,0,0,0,0,none,0,0,30,5,0,0,0.0,0
+Charley the vibes were amazing 🔥,positive,pidgin,0,0,0.0,0,0,0,0,0,0.038461538461538464,0,1,1,0,none,0,0,32,5,1,0,0.2,1
+Oo I understand now,neutral,mixed,0,2,0.0,0,0,0,0,0,0.125,0,0,0,0,none,0,0,19,4,0,1,0.25,1
+The new policy is confusing,negative,english,0,0,0.0,0,0,0,0,0,0.043478260869565216,0,0,0,0,none,0,0,27,5,0,0,0.0,0
