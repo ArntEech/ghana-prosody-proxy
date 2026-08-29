@@ -1,4 +1,4 @@
-id,tweet,label,language,dataset_type,dataset
+id,text,label,language,dataset_type,dataset
 1,wode maya ??,neutral,twi,monolingual,asante_twi_senti
 2,nsuo de ebi poseidon,neutral,twi,monolingual,asante_twi_senti
 3,???????????? bra mike nie,neutral,twi,monolingual,asante_twi_senti
