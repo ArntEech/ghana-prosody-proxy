@@ -2,65 +2,125 @@ from pathlib import Path
 import sys
 import pandas as pd
 
+
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+
+sys.path.append(str(ROOT))
 
 from src.proxy_features import extract_proxy_features
-from src.language_features import detect_language_features
 
 
-INPUT_FILE = ROOT / "data/processed/corpus_processed.csv"
-OUTPUT_FILE = ROOT / "data/annotated/prosody_proxy_annotations.csv"
+INPUT_PATH = (
+    ROOT
+    / "data"
+    / "processed"
+    / "corpus_processed.csv"
+)
+
+OUTPUT_PATH = (
+    ROOT
+    / "data"
+    / "processed"
+    / "corpus_with_proxy_features.csv"
+)
 
 
 def main():
 
-    df = pd.read_csv(INPUT_FILE)
+    print("Loading processed corpus...")
 
-    if "text" not in df.columns:
-        raise ValueError(
-            "Dataset must contain a 'text' column."
+    df = pd.read_csv(INPUT_PATH)
+
+    print(
+        f"Loaded {len(df)} tweets."
+    )
+
+    print(
+        "Extracting prosodic and pragmatic proxy features..."
+    )
+
+    feature_rows = []
+
+    for index, row in df.iterrows():
+
+        features = extract_proxy_features(
+            row["tweet"]
         )
 
-    proxy_rows = []
+        feature_rows.append(features)
 
-    for text in df["text"]:
-        features = {}
+        if (index + 1) % 1000 == 0:
+            print(
+                f"Processed {index + 1} tweets..."
+            )
 
-        features.update(
-            extract_proxy_features(text)
-        )
 
-        features.update(
-            detect_language_features(text)
-        )
+    feature_df = pd.DataFrame(
+        feature_rows
+    )
 
-        proxy_rows.append(features)
-
-    feature_df = pd.DataFrame(proxy_rows)
-
-    output = pd.concat(
-        [df.reset_index(drop=True), feature_df],
+    final_df = pd.concat(
+        [
+            df.reset_index(drop=True),
+            feature_df.reset_index(drop=True),
+        ],
         axis=1
     )
 
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True
+
+    final_df.to_csv(
+        OUTPUT_PATH,
+        index=False,
+        encoding="utf-8"
     )
 
-    output.to_csv(
-        OUTPUT_FILE,
-        index=False
+
+    print("\n" + "=" * 60)
+    print("FEATURE EXTRACTION COMPLETE")
+    print("=" * 60)
+
+    print(
+        f"\nProcessed tweets: {len(final_df)}"
     )
 
     print(
-        f"Feature extraction complete: "
-        f"{len(output)} records"
+        "\nTweets containing elongation:"
     )
 
     print(
-        f"Saved to: {OUTPUT_FILE}"
+        final_df["has_elongation"]
+        .sum()
+    )
+
+    print(
+        "\nTweets containing emojis:"
+    )
+
+    print(
+        final_df["has_emoji"]
+        .sum()
+    )
+
+    print(
+        "\nTweets containing pragmatic particles:"
+    )
+
+    print(
+        final_df["has_particle"]
+        .sum()
+    )
+
+    print(
+        "\nTweets containing interjections:"
+    )
+
+    print(
+        final_df["has_interjection"]
+        .sum()
+    )
+
+    print(
+        f"\nSaved output to:\n{OUTPUT_PATH}"
     )
 
 
