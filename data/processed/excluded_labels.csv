@@ -1,0 +1,329 @@
+id,text,label,language,dataset_type,dataset,clean_text
+193,me ly paa oo nso me sika sem ny ??,multilingual,twi,monolingual,asante_twi_senti,me ly paa oo nso me sika sem ny ??
+416,what will be the importance of tweeting earlier gimiii saa,multilingual,twi,monolingual,asante_twi_senti,what will be the importance of tweeting earlier gimiii saa
+804,s? wob?n asuo ho a na wo b? te s? ?k?t? reb? wa,positive & negative,twi,monolingual,asante_twi_senti,s? wob?n asuo ho a na wo b? te s? ?k?t? reb? wa
+1252,wanim tis koobi   trumudiifo   bra panyin medi wakyi wai    medi wakyi di makyi,positive & negative,twi,monolingual,asante_twi_senti,wanim tis koobi trumudiifo bra panyin medi wakyi wai medi wakyi di makyi
+1908,nkwan dwo a ano sini biara tumi ka bi hw?,positive & negative,twi,monolingual,asante_twi_senti,nkwan dwo a ano sini biara tumi ka bi hw?
+2871,de? ?ntumi dane de? ?tumi,positive & negative,twi,monolingual,asante_twi_senti,de? ?ntumi dane de? ?tumi
+3357,?boafo? ho y? na nanso adefop?fo? ho ny? na koraa,positive & negative,twi,monolingual,asante_twi_senti,?boafo? ho y? na nanso adefop?fo? ho ny? na koraa
+3494,de? wahw? wo ama wo se afifiri no wo nso wohw? no ma ne de? tutu,positive & negative,twi,monolingual,asante_twi_senti,de? wahw? wo ama wo se afifiri no wo nso wohw? no ma ne de? tutu
+3602,ansa na y?b?wo akwadaa nyansafo? no na y?awo ?panin kwasea,positive & negative,twi,monolingual,asante_twi_senti,ansa na y?b?wo akwadaa nyansafo? no na y?awo ?panin kwasea
+3631,onua ?kyeredaako mpanin se nyansap? w?sane no badwemma kane bi ne no na medwene s? woka w?nom a w?tumi san…,positive & negative,twi,monolingual,asante_twi_senti,onua ?kyeredaako mpanin se nyansap? w?sane no badwemma kane bi ne no na medwene s? woka w?nom a w?tumi san…
+3769,matematika,twi,twi,monolingual,asante_twi_senti,matematika
+3784,na s woo wagyimi saawano ho nwin s kway wati siiatono wonder  said u bi funny,positive & negative,twi,monolingual,asante_twi_senti,na s woo wagyimi saawano ho nwin s kway wati siiatono wonder said u bi funny
+3832,wo boo wa wo pa ky?w,positive & negative,twi,monolingual,asante_twi_senti,wo boo wa wo pa ky?w
+3850,matron mabr saa but nyame adom nti m’ay fit biom,positive & negative,twi,monolingual,asante_twi_senti,matron mabr saa but nyame adom nti m’ay fit biom
+3869,rebet saa na aka wo pesewas,multilingual,twi,monolingual,asante_twi_senti,rebet saa na aka wo pesewas
+4266,ad?n moahw? footage anaa ??,positive & negative,twi,monolingual,asante_twi_senti,ad?n moahw? footage anaa ??
+4299,nka asm bi w h anaa,positive & negative,twi,monolingual,asante_twi_senti,nka asm bi w h anaa
+4339,ah that rui costa nu wagyimi anaa ?? is the club his president mpo nie na owner ntweew ????,ghanaian pidgin,twi,monolingual,asante_twi_senti,ah that rui costa nu wagyimi anaa ?? is the club his president mpo nie na owner ntweew ????
+4356,wo nso saa,positive & negative,twi,monolingual,asante_twi_senti,wo nso saa
+4440,ei na wei nso firi hin??,positive & negative,twi,monolingual,asante_twi_senti,ei na wei nso firi hin??
+4453,nyansa nni baako fuo trim????,positive & negative,twi,monolingual,asante_twi_senti,nyansa nni baako fuo trim????
+4488,nokr? ne saa nti biribi b?to wo no na mede meho aka nwura wo ne nananom ne ahenfie no nyinaa mede asi ha??,positive & negative,twi,monolingual,asante_twi_senti,nokr? ne saa nti biribi b?to wo no na mede meho aka nwura wo ne nananom ne ahenfie no nyinaa mede asi ha??
+4567,hmm eii awurade mma y obaa ne ho f oo ny saa wani koraa ngye wiade,positive & negative,twi,monolingual,asante_twi_senti,hmm eii awurade mma y obaa ne ho f oo ny saa wani koraa ngye wiade
+4580,ndc kuw no ani gye ho s? w?b?hwie mogya agu ad?n yebetumi ama ghanafo awer?hyem s? saa ?bonsam nhyehy?e yi renny? adwuma,positive & negative,twi,monolingual,asante_twi_senti,ndc kuw no ani gye ho s? w?b?hwie mogya agu ad?n yebetumi ama ghanafo awer?hyem s? saa ?bonsam nhyehy?e yi renny? adwuma
+4610,?den ooo kwabena wanhy? wo ho so paa wo b? di akyire saa na wo sika asa a ma no ate wani so sei,positive & negative,twi,monolingual,asante_twi_senti,?den ooo kwabena wanhy? wo ho so paa wo b? di akyire saa na wo sika asa a ma no ate wani so sei
+4783,aban papa de saa,positive & negative,twi,monolingual,asante_twi_senti,aban papa de saa
+4815,herh??????metwem w yesu din nu,positive & negative,twi,monolingual,asante_twi_senti,herh??????metwem w yesu din nu
+4880,nko ara,no sentiment,twi,monolingual,asante_twi_senti,nko ara
+4886,yoo,no sentiment,twi,monolingual,asante_twi_senti,yoo
+4903,ahohia ahomete? anikrakra,no sentiment,twi,monolingual,asante_twi_senti,ahohia ahomete? anikrakra
+4924,ani k?? ase? tumm,no sentiment,twi,monolingual,asante_twi_senti,ani k?? ase? tumm
+4930,saa na ?b?ma wo nyhira,no sentiment,twi,monolingual,asante_twi_senti,saa na ?b?ma wo nyhira
+4938,b?la,no sentiment,twi,monolingual,asante_twi_senti,b?la
+4939,tumtum tiatia,no sentiment,twi,monolingual,asante_twi_senti,tumtum tiatia
+4940,k?k?? tintin,no sentiment,twi,monolingual,asante_twi_senti,k?k?? tintin
+4941,tumtum tintin,no sentiment,twi,monolingual,asante_twi_senti,tumtum tintin
+4942,k?k?? tiatia,no sentiment,twi,monolingual,asante_twi_senti,k?k?? tiatia
+4943,tiatia tintin — ?h?ne?h?,no sentiment,twi,monolingual,asante_twi_senti,tiatia tintin — ?h?ne?h?
+4984,na woka no sei,no sentiment,twi,monolingual,asante_twi_senti,na woka no sei
+5002,“n’ano  “,no sentiment,twi,monolingual,asante_twi_senti,“n’ano “
+5015,kyekye kofi sa,no sentiment,twi,monolingual,asante_twi_senti,kyekye kofi sa
+5016,kakahyi langa,no sentiment,twi,monolingual,asante_twi_senti,kakahyi langa
+5055,?anka ?twer?e mmom,no sentiment,twi,monolingual,asante_twi_senti,?anka ?twer?e mmom
+5105,mm?borowa s? ebi w? nsuo bi mu a na ?kyer? s? ?nam w? saa nsuo no mu,no sentiment,twi,monolingual,asante_twi_senti,mm?borowa s? ebi w? nsuo bi mu a na ?kyer? s? ?nam w? saa nsuo no mu
+5106,meho y?f? nti mey? nea mep? ampa,positive & negative,twi,monolingual,asante_twi_senti,meho y?f? nti mey? nea mep? ampa
+5127,asre anaa s wasre,no sentiment,twi,monolingual,asante_twi_senti,asre anaa s wasre
+5136,mo nyinaa wer?afiri abena,no sentiment,twi,monolingual,asante_twi_senti,mo nyinaa wer?afiri abena
+5154,ab?n a ?gyee ananse nkwa no  ?hene bi tenaa ase a na ?w? sika yie saa ?hene no gyee din w? ne man mu,no sentiment,twi,monolingual,asante_twi_senti,ab?n a ?gyee ananse nkwa no ?hene bi tenaa ase a na ?w? sika yie saa ?hene no gyee din w? ne man mu
+5261,?? asantehema nnaw?twe dawuro  sfmkfh,no sentiment,twi,monolingual,asante_twi_senti,?? asantehema nnaw?twe dawuro sfmkfh
+5280,hw? ne kwasea bi afei nso twe  kiib?d firi appstore na woatumi atwer? ? ne ?  sq,positive & negative,twi,monolingual,asante_twi_senti,hw? ne kwasea bi afei nso twe kiib?d firi appstore na woatumi atwer? ? ne ? sq
+5283,?? obengwoha akyer?kyer?kwan k — kwae?mu kusuufamu benkum e — ?pomu nifa p — apue? anafo? t —,no sentiment,twi,monolingual,asante_twi_senti,?? obengwoha akyer?kyer?kwan k — kwae?mu kusuufamu benkum e — ?pomu nifa p — apue? anafo? t —
+5293,wo nsa akyiri b? y? wo d? a ?nte s? wo nsa yam,twi,twi,monolingual,asante_twi_senti,wo nsa akyiri b? y? wo d? a ?nte s? wo nsa yam
+5305,sie,no sentiment,twi,monolingual,asante_twi_senti,sie
+5348,aane kwasi adi ?se at?m ?firi s? mpaninfo? se agya gyae ma menka wokyi  s,positive & negative,twi,monolingual,asante_twi_senti,aane kwasi adi ?se at?m ?firi s? mpaninfo? se agya gyae ma menka wokyi s
+5356,makyer?kyer? akyinsoromma ahodo? a ?w? ab?de? mu nyinaa w? me tumblr bl?g so  swbejbka,no sentiment,twi,monolingual,asante_twi_senti,makyer?kyer? akyinsoromma ahodo? a ?w? ab?de? mu nyinaa w? me tumblr bl?g so swbejbka
+5357,nsaateaa nnum no adin,no sentiment,twi,monolingual,asante_twi_senti,nsaateaa nnum no adin
+5358,kokoromoti,no sentiment,twi,monolingual,asante_twi_senti,kokoromoti
+5359,nkyer?kyer?ade?,no sentiment,twi,monolingual,asante_twi_senti,nkyer?kyer?ade?
+5362,okokorob?t?,no sentiment,twi,monolingual,asante_twi_senti,okokorob?t?
+5370,?ne? ne s?n nti na wobisa s? nadamfo w? mpena,no sentiment,twi,monolingual,asante_twi_senti,?ne? ne s?n nti na wobisa s? nadamfo w? mpena
+5395,nokor?,no sentiment,twi,monolingual,asante_twi_senti,nokor?
+5408,daabi da na mmom mpaninfo? se s? obi apa da wo nsa a oni na wodane no  skfidody,no sentiment,twi,monolingual,asante_twi_senti,daabi da na mmom mpaninfo? se s? obi apa da wo nsa a oni na wodane no skfidody
+5434,mate wae,no sentiment,twi,monolingual,asante_twi_senti,mate wae
+5443,d?kono ase rehye a na abene,no sentiment,twi,monolingual,asante_twi_senti,d?kono ase rehye a na abene
+5476,y?koto wo  sktkui,no sentiment,twi,monolingual,asante_twi_senti,y?koto wo sktkui
+5496,amanfo?,no sentiment,twi,monolingual,asante_twi_senti,amanfo?
+5520,twi nie,no sentiment,twi,monolingual,asante_twi_senti,twi nie
+5560,can help you with that sia,positive & negative,twi,monolingual,asante_twi_senti,can help you with that sia
+5564,s? mob?ka twi firinkyem a anaa ne tiriw s? mob?twer? no mmer? biara te s? moy? bur?fo no a anka kasa no b?k? so,no sentiment,twi,monolingual,asante_twi_senti,s? mob?ka twi firinkyem a anaa ne tiriw s? mob?twer? no mmer? biara te s? moy? bur?fo no a anka kasa no b?k? so
+5569,p?s?wa sede? ?na peredwan sede? na w?y?? no ?n? gaana sika cedi no ?na w?y?? p?s?wa nso pesewa,no sentiment,twi,monolingual,asante_twi_senti,p?s?wa sede? ?na peredwan sede? na w?y?? no ?n? gaana sika cedi no ?na w?y?? p?s?wa nso pesewa
+5601,saaa saaa,no sentiment,twi,monolingual,asante_twi_senti,saaa saaa
+5618,meankasa,no sentiment,twi,monolingual,asante_twi_senti,meankasa
+5633,?fi s? me p? s? na me suaa learn…i don’t know how to spell that one properly,no sentiment,twi,monolingual,asante_twi_senti,?fi s? me p? s? na me suaa learn…i don’t know how to spell that one properly
+5673,s? wob?gye odwan ama y?adwan wo ho de? firi fifire na y?mfa mfiri wo,no sentiment,twi,monolingual,asante_twi_senti,s? wob?gye odwan ama y?adwan wo ho de? firi fifire na y?mfa mfiri wo
+5726,ayowa ne ?ta mpaepaemu,no sentiment,twi,monolingual,asante_twi_senti,ayowa ne ?ta mpaepaemu
+5739,y?nnim obi a y?mm? no mmrane,twi,twi,monolingual,asante_twi_senti,y?nnim obi a y?mm? no mmrane
+5752,saaa,no sentiment,twi,monolingual,asante_twi_senti,saaa
+5806,ade no,no sentiment,twi,monolingual,asante_twi_senti,ade no
+5808,nana di makyi bi waemidi wakyi menua,no sentiment,twi,monolingual,asante_twi_senti,nana di makyi bi waemidi wakyi menua
+5841,?koter? nk?di ne mako ?mma aponkyerani nhuhu nano,no sentiment,twi,monolingual,asante_twi_senti,?koter? nk?di ne mako ?mma aponkyerani nhuhu nano
+5859,buroni bi y? tuntum “ broni kokoorrrr,no sentiment,twi,monolingual,asante_twi_senti,buroni bi y? tuntum “ broni kokoorrrr
+5893,ber? a ?twe nhunuu adukuro no na ?da,no sentiment,twi,monolingual,asante_twi_senti,ber? a ?twe nhunuu adukuro no na ?da
+6021,wei nso y player 🤣🤣,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,wei nso y player 🤣🤣
+6024,oh saa  sxny,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,oh saa sxny
+6025,akwaaba magic and they will be showing indian movies,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,akwaaba magic and they will be showing indian movies
+6029,say bra and lemme hear 😆😆,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,say bra and lemme hear 😆😆
+6037,mr mensah x king paluta the money official music video,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,mr mensah x king paluta the money official music video
+6066,chale man for bɔɔ bra oo hmm  stg,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,chale man for bɔɔ bra oo hmm stg
+6067,wobisa s saawotumi hire fine girls nkoaaa wor wo video mu nso you nor dey touch dm seff s y wo f 😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,wobisa s saawotumi hire fine girls nkoaaa wor wo video mu nso you nor dey touch dm seff s y wo f 😂
+6070,bra mike said he’s posted on the block watching his opps,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,bra mike said he’s posted on the block watching his opps
+6071,do your way bra,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,do your way bra
+6090,good morning bra andy i’m deetrid godella from botwe the answer to the question is tumor daybreakhitz,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,good morning bra andy i’m deetrid godella from botwe the answer to the question is tumor daybreakhitz
+6093,a laugh saa charle 😅😅💀,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,a laugh saa charle 😅😅💀
+6098,the gallaghercheek pivot di we go see mmom kovacic nso di ei,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,the gallaghercheek pivot di we go see mmom kovacic nso di ei
+6138,and  twi i beg how do i get tha twi alphabets,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,and twi i beg how do i get tha twi alphabets
+6147,you dawged me     ei whereve u been,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,you dawged me ei whereve u been
+6151,buei  some serious twi bwoooooiii ☺👊   aane “  yoo ma ti i hope sɛ birib…,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,buei some serious twi bwoooooiii ☺👊 aane “ yoo ma ti i hope sɛ birib…
+6152,wat can com can com nw dat its comin he dey run oh powers,ghanaian pidgin,ghanaian_pidgin,pidgin,asante_twi_senti,wat can com can com nw dat its comin he dey run oh powers
+6160,e hard ooo“ i dont know if theres a living corpse “ touching a dead corpseeeeeei””,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,e hard ooo“ i dont know if theres a living corpse “ touching a dead corpseeeeeei””
+6193,i barb but my point is some want u to move almost immediately even if they can see it’s not convenient for u like maybe there’s another car blocking u in the other lane one time one driver did that and i intentionally blocked him saa until he changed direction,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,i barb but my point is some want u to move almost immediately even if they can see it’s not convenient for u like maybe there’s another car blocking u in the other lane one time one driver did that and i intentionally blocked him saa until he changed direction
+6202,dem bench am saa last minute kraa before he come play some,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,dem bench am saa last minute kraa before he come play some
+6213,allah yabada saa,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,allah yabada saa
+6231,i laff saa that guy is cursing saa 😂😂😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,i laff saa that guy is cursing saa 😂😂😂
+6234,you go do saa then his record label go find u in public and do the needful hmm,ghanaian pidgin,ghanaian_pidgin,pidgin,asante_twi_senti,you go do saa then his record label go find u in public and do the needful hmm
+6238,bestie bestie saa den u eat am 😭,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,bestie bestie saa den u eat am 😭
+6248,jon when will you change your mindset you say same to yaw tog not to feature sarkodie buh rydee  where he dey,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,jon when will you change your mindset you say same to yaw tog not to feature sarkodie buh rydee where he dey
+6254,i just sleep saa everybody do ein partthe japanese guy for celtic score,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,i just sleep saa everybody do ein partthe japanese guy for celtic score
+6286,he no dey find nehemiah eii na ono so okaa s guy no mbue nehemiah saa de gyee din nehemiah a nebue dindindin saa no hehehe wammpon aa anka agye omo da asore dan mu h hehehe,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,he no dey find nehemiah eii na ono so okaa s guy no mbue nehemiah saa de gyee din nehemiah a nebue dindindin saa no hehehe wammpon aa anka agye omo da asore dan mu h hehehe
+6291,saa rasta wei ankasa we for lash am na be too funny 😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,saa rasta wei ankasa we for lash am na be too funny 😂
+6303,graham potter de s akwasi appiah y ooo😭😭😭😂💙,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,graham potter de s akwasi appiah y ooo😭😭😭😂💙
+6313,madwen ho saa i just dont get it moretimes them for change coach,non twi,ghanaian_pidgin,pidgin,asante_twi_senti,madwen ho saa i just dont get it moretimes them for change coach
+6331,hmmm saa boy wei cy lost soul oo😂😂😂 i’m surprised it’s not,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,hmmm saa boy wei cy lost soul oo😂😂😂 i’m surprised it’s not
+6332,ronaldo keeps raising the bar yaw dabo no fit reach😭😭 cr𓃵,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,ronaldo keeps raising the bar yaw dabo no fit reach😭😭 cr𓃵
+6418,them tk do u anaa 😂💀,ghanaian pidgin,ghanaian_pidgin,pidgin,asante_twi_senti,them tk do u anaa 😂💀
+6428,and you are still suffering anaa after the attack your pain go,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,and you are still suffering anaa after the attack your pain go
+6530,are ghanaian lw men oo,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,are ghanaian lw men oo
+6562,say no to sports betting anaa woseone goal needed to win millions of ghana cedis  goal finally arrive but var says nowow heartbroken,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,say no to sports betting anaa woseone goal needed to win millions of ghana cedis goal finally arrive but var says nowow heartbroken
+6628,are you in ksi anaa  come office now now 😁,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,are you in ksi anaa come office now now 😁
+6638,hahaha we are willing to pay bro but are they also willing to telecast it or anaa meboa ✌️,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,hahaha we are willing to pay bro but are they also willing to telecast it or anaa meboa ✌️
+6704,ah that rui costa nu wagyimi anaa 😠 is the club his president mpo nie na owner ntweew 😏😏,ghanaian pidgin,ghanaian_pidgin,pidgin,asante_twi_senti,ah that rui costa nu wagyimi anaa 😠 is the club his president mpo nie na owner ntweew 😏😏
+6707,that dr kraman guy ankasa he be correct guy,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,that dr kraman guy ankasa he be correct guy
+6749,shatta you make i laf saa wey i come step  ma remote top n break’am 😂😂😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,shatta you make i laf saa wey i come step ma remote top n break’am 😂😂😂
+6751,aybi da  let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏dont mind am baba,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,aybi da let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏dont mind am baba
+6755,i watch saa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,i watch saa
+6764,bro i have send momo number saa 😪😪💔,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,bro i have send momo number saa 😪😪💔
+6768,ah ebi passport dem dey use to travel eii saa🤔🤔,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,ah ebi passport dem dey use to travel eii saa🤔🤔
+6779,hw ooo he saa nso dey want better reason to break up chai lord whatever sinful lifestyle im living make i no mumu like this wan amen🙏,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,hw ooo he saa nso dey want better reason to break up chai lord whatever sinful lifestyle im living make i no mumu like this wan amen🙏
+6781,u get money come pay saa nso dey spy ur phone topwhy not stay home nd check onlineedey vex me pass but once a while adey pass through especially ucl night sekof the atmosphere b epic 🔥🔥,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,u get money come pay saa nso dey spy ur phone topwhy not stay home nd check onlineedey vex me pass but once a while adey pass through especially ucl night sekof the atmosphere b epic 🔥🔥
+6783,i tell you i dey here zooming it saa to see it very well 😂,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,i tell you i dey here zooming it saa to see it very well 😂
+6787,naaa ago buy that one saa  pieces instead by baako p gh,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,naaa ago buy that one saa pieces instead by baako p gh
+6790,big boss i don tweet saa ano barb your giveaway some da today dier make my luck shine,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,big boss i don tweet saa ano barb your giveaway some da today dier make my luck shine
+6794,so you do saa now you dey get engagement eii 💔😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,so you do saa now you dey get engagement eii 💔😂
+6798,today i say make i wear pad then see herh saa pad mu yd ei my balls all make cold😩,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,today i say make i wear pad then see herh saa pad mu yd ei my balls all make cold😩
+6801,crashing nu y mu levels we dey stage one he’s basically saying help us not to get to stage  ny saa la wu,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,crashing nu y mu levels we dey stage one he’s basically saying help us not to get to stage ny saa la wu
+6802,i drop saa  sgzl,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,i drop saa sgzl
+6808,my own lef me go marry after  years ur own sef considered u saa for  years she deserves a degree certificate sha,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,my own lef me go marry after years ur own sef considered u saa for years she deserves a degree certificate sha
+6810,e leff small like we dey find him naa wey he saa lost again so we still searching 😤😤,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,e leff small like we dey find him naa wey he saa lost again so we still searching 😤😤
+6828,norr we dey joke dey joke but charle this be someway paaa oh  why these people dem just no go fi free dem  these people sef i sure sey dem struggle saa before dem get people come do this thing ibi wickedness or what  kmt  snzipogudm,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,norr we dey joke dey joke but charle this be someway paaa oh why these people dem just no go fi free dem these people sef i sure sey dem struggle saa before dem get people come do this thing ibi wickedness or what kmt snzipogudm
+6841,messi for do something nny saa yawuadey fear pass herr😂,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,messi for do something nny saa yawuadey fear pass herr😂
+6842,nagodfc bros i have been following saa since  days ago but nothing boss pls make this sunday a memorable one for me,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,nagodfc bros i have been following saa since days ago but nothing boss pls make this sunday a memorable one for me
+6849,boss last thursday i did saa buh didnt get it giveaway abeg today de dont go pass me,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,boss last thursday i did saa buh didnt get it giveaway abeg today de dont go pass me
+6865,sadiq  boss since yesterday oo i drop saa 🙏i beg make i see top  sntyt,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,sadiq boss since yesterday oo i drop saa 🙏i beg make i see top sntyt
+6866,bro adey follow u saa but ano win ur giveway some today bless me small,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,bro adey follow u saa but ano win ur giveway some today bless me small
+6875,so  can drop two tracks in a day like what he was doing with amerado beef thing nor n yaa starve y saa no,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,so can drop two tracks in a day like what he was doing with amerado beef thing nor n yaa starve y saa no
+6877,if uno change ago worry u saa,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,if uno change ago worry u saa
+6890,this song a fit repeat saa 😂😂if adey soak the album,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,this song a fit repeat saa 😂😂if adey soak the album
+6909,this matter ego go back and forth saa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,this matter ego go back and forth saa
+6911,bet deir you for use  your mind to it ooo else dem go chop you saa,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,bet deir you for use your mind to it ooo else dem go chop you saa
+6913,i drop saa but it never reach me   make i receive the blessing some,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,i drop saa but it never reach me make i receive the blessing some
+6919,you go do saa then the thing go tear ein eye top …first time proper come your life inside see what you dey do,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,you go do saa then the thing go tear ein eye top …first time proper come your life inside see what you dey do
+6922,song dey parp gyae saa,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,song dey parp gyae saa
+6928,see heri know this paadont beg for water it will raindont beg for food dont beg for money saa then you die before your time pride is killing mist youth learn to beg when neededwe all need somebody to success,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,see heri know this paadont beg for water it will raindont beg for food dont beg for money saa then you die before your time pride is killing mist youth learn to beg when neededwe all need somebody to success
+6938,chale the song den dey play for the video inside nu … dem dey play for funeral under waa… i search am saa i taya abeg where ago get the full mix,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,chale the song den dey play for the video inside nu … dem dey play for funeral under waa… i search am saa i taya abeg where ago get the full mix
+6978,today be sponge day anaa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,today be sponge day anaa
+6983,ohabi ebe soo norr anaa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,ohabi ebe soo norr anaa
+6988,u wanna watch plus me anaa🤣😂,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,u wanna watch plus me anaa🤣😂
+6991,please if you dey around too you can join anaa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,please if you dey around too you can join anaa
+6992,oh them chopping anaa abeg add me make i see some me ano go block bia,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,oh them chopping anaa abeg add me make i see some me ano go block bia
+7009,so as u dey declare am no mk we stop d search anaa,no sentiment,ghanaian_pidgin,pidgin,asante_twi_senti,so as u dey declare am no mk we stop d search anaa
+7022,s wo nni biaa dem dey wish you wellafei wo bnya biaa dem dey wish you hellfameye,positive & negative,ghanaian_pidgin,pidgin,asante_twi_senti,s wo nni biaa dem dey wish you wellafei wo bnya biaa dem dey wish you hellfameye
+7034,i have tried saa super,no sentiment,mixed,multilingual,asante_twi_senti,i have tried saa super
+7054,you must be arrested for this ah bra panyin paa did you dance at your wedding,no sentiment,mixed,multilingual,asante_twi_senti,you must be arrested for this ah bra panyin paa did you dance at your wedding
+7069,saa can you teach me,no sentiment,mixed,multilingual,asante_twi_senti,saa can you teach me
+7077,some of us our girlfriends will start menstruation from february 😭vals day no b tor nsuo mu ama amanfour but low key ebe keys 😜 ✌️,no sentiment,mixed,multilingual,asante_twi_senti,some of us our girlfriends will start menstruation from february 😭vals day no b tor nsuo mu ama amanfour but low key ebe keys 😜 ✌️
+7104,that’s your book lil bra😂,no sentiment,mixed,multilingual,asante_twi_senti,that’s your book lil bra😂
+7108,bra kwaw bra bgye wo watch cos this mad time,no sentiment,mixed,multilingual,asante_twi_senti,bra kwaw bra bgye wo watch cos this mad time
+7111,aane😂😂😂 i don’t make the rules 😂😂😂,no sentiment,mixed,multilingual,asante_twi_senti,aane😂😂😂 i don’t make the rules 😂😂😂
+7121,dicks and chics nso yɛ dɛn😂  szphqd,no sentiment,mixed,multilingual,asante_twi_senti,dicks and chics nso yɛ dɛn😂 szphqd
+7137,herh saa boy wei 😂😂😂,no sentiment,mixed,multilingual,asante_twi_senti,herh saa boy wei 😂😂😂
+7156,breaking and setting records tein ucc has been able to register plus new members just this semester through the akwaaba drive we embarked on tein ucc 🔥🔥🔥  sgsaz,no sentiment,mixed,multilingual,asante_twi_senti,breaking and setting records tein ucc has been able to register plus new members just this semester through the akwaaba drive we embarked on tein ucc 🔥🔥🔥 sgsaz
+7157,ɛyɛ true paaa aaaa hmmmmm,no sentiment,mixed,multilingual,asante_twi_senti,ɛyɛ true paaa aaaa hmmmmm
+7167,ghanaian youtuber wode maya fights to save his camera at togolese boarder     read more,no sentiment,mixed,multilingual,asante_twi_senti,ghanaian youtuber wode maya fights to save his camera at togolese boarder read more
+7189,buy from us na we don’t sell fake things 🥰very affordable too…surprise ur girlfriend n stop 🛑 bra fie 🤣,no sentiment,mixed,multilingual,asante_twi_senti,buy from us na we don’t sell fake things 🥰very affordable too…surprise ur girlfriend n stop 🛑 bra fie 🤣
+7213,bishop nso w feelings🙈,no sentiment,mixed,multilingual,asante_twi_senti,bishop nso w feelings🙈
+7214,akwaaba bra kwakwu   thebigbreakfast,no sentiment,mixed,multilingual,asante_twi_senti,akwaaba bra kwakwu thebigbreakfast
+7232,been listening saa atiabanku  sqai,no sentiment,mixed,multilingual,asante_twi_senti,been listening saa atiabanku sqai
+7235,it’s about time bra adotey advise some of this boys,no sentiment,mixed,multilingual,asante_twi_senti,it’s about time bra adotey advise some of this boys
+7236,so this dude is on the space claiming he had yesterdays tweet written down for months and he chose to tweet it after sdk tweeted about his mothers deatheiiii bra bongo 🤦‍♂️🤦‍♂️🤦‍♂️,no sentiment,mixed,multilingual,asante_twi_senti,so this dude is on the space claiming he had yesterdays tweet written down for months and he chose to tweet it after sdk tweeted about his mothers deatheiiii bra bongo 🤦‍♂️🤦‍♂️🤦‍♂️
+7240,me ly paa oo nso me sika sem ny 😂,multilingual,mixed,multilingual,asante_twi_senti,me ly paa oo nso me sika sem ny 😂
+7248,rushhouronasaase                                                                                np bra   ft pat thomasw  amp   on,no sentiment,mixed,multilingual,asante_twi_senti,rushhouronasaase np bra ft pat thomasw amp on
+7259,saa send meauxmeaux 😔,no sentiment,mixed,multilingual,asante_twi_senti,saa send meauxmeaux 😔
+7274,yesufie   im beginning to think that these giveaway stuff no be reali have been dropping saaa nso momo,no sentiment,mixed,multilingual,asante_twi_senti,yesufie im beginning to think that these giveaway stuff no be reali have been dropping saaa nso momo
+7279,eii saawho en own that,no sentiment,mixed,multilingual,asante_twi_senti,eii saawho en own that
+7295,ghanaian youtuber wode maya fights to save his camera at togolese boarder     read more,no sentiment,mixed,multilingual,asante_twi_senti,ghanaian youtuber wode maya fights to save his camera at togolese boarder read more
+7297,you need the bottle to survivebefore you think on how to make it what strength are you going to use to get that well you nso a you dont have what it take to get a bottle now😂😂 my friend beg till you get some oo else you will die,no sentiment,mixed,multilingual,asante_twi_senti,you need the bottle to survivebefore you think on how to make it what strength are you going to use to get that well you nso a you dont have what it take to get a bottle now😂😂 my friend beg till you get some oo else you will die
+7303,bra mike chop life ✊🏿,no sentiment,mixed,multilingual,asante_twi_senti,bra mike chop life ✊🏿
+7308,we may end up waiting forever mu ya nso mako nnim🤓,no sentiment,mixed,multilingual,asante_twi_senti,we may end up waiting forever mu ya nso mako nnim🤓
+7317,watch how a university drop out became a famous african youtuber source wode maya,no sentiment,mixed,multilingual,asante_twi_senti,watch how a university drop out became a famous african youtuber source wode maya
+7331,lol sɛn,no sentiment,mixed,multilingual,asante_twi_senti,lol sɛn
+7337,akwaaba in advance,no sentiment,mixed,multilingual,asante_twi_senti,akwaaba in advance
+7338,sponsored by sɛn 🤣,no sentiment,mixed,multilingual,asante_twi_senti,sponsored by sɛn 🤣
+7355,gallagher yi nso,no sentiment,mixed,multilingual,asante_twi_senti,gallagher yi nso
+7371,obra ma bra nyinaa now i dey sign check 💥💥💥💥,no sentiment,mixed,multilingual,asante_twi_senti,obra ma bra nyinaa now i dey sign check 💥💥💥💥
+7387,ana obi nso ato camavinger😂,no sentiment,mixed,multilingual,asante_twi_senti,ana obi nso ato camavinger😂
+7392,receipt deɛ ɛyɛ ooooooo,no sentiment,mixed,multilingual,asante_twi_senti,receipt deɛ ɛyɛ ooooooo
+7415,new music 💥💥💥bra abonten nii m ft ponobiom x   black,no sentiment,mixed,multilingual,asante_twi_senti,new music 💥💥💥bra abonten nii m ft ponobiom x black
+7420,so people actually sleep with bra,no sentiment,mixed,multilingual,asante_twi_senti,so people actually sleep with bra
+7436,bro i have send momo number saa 😪😪💔,no sentiment,mixed,multilingual,asante_twi_senti,bro i have send momo number saa 😪😪💔
+7437,trust the process saa now i get trust issues sef,no sentiment,mixed,multilingual,asante_twi_senti,trust the process saa now i get trust issues sef
+7453,bra log out 😂,no sentiment,mixed,multilingual,asante_twi_senti,bra log out 😂
+7510,lowkey efa nso dea fulham begye beye  o😂  shgdxbxi,multilingual,mixed,multilingual,asante_twi_senti,lowkey efa nso dea fulham begye beye o😂 shgdxbxi
+7511,excerpts from just ended freshers akwaaba service,no sentiment,mixed,multilingual,asante_twi_senti,excerpts from just ended freshers akwaaba service
+7513,me tie saa by wan awa nie atiabanku,no sentiment,mixed,multilingual,asante_twi_senti,me tie saa by wan awa nie atiabanku
+7514,not too fast bra,no sentiment,mixed,multilingual,asante_twi_senti,not too fast bra
+7516,😂😂😂eii saa okay,no sentiment,mixed,multilingual,asante_twi_senti,😂😂😂eii saa okay
+7521,what will be the importance of tweeting earlier gimiii saa,multilingual,mixed,multilingual,asante_twi_senti,what will be the importance of tweeting earlier gimiii saa
+7529,bra ghana 🇬🇭 aswear,no sentiment,mixed,multilingual,asante_twi_senti,bra ghana 🇬🇭 aswear
+7530,😂😂😂is too early bra kwesi,no sentiment,mixed,multilingual,asante_twi_senti,😂😂😂is too early bra kwesi
+7551,freshers akwaaba its was amazing and fantastic glory to the living god,non twi,mixed,multilingual,asante_twi_senti,freshers akwaaba its was amazing and fantastic glory to the living god
+7552,slim p beef bra err,no sentiment,mixed,multilingual,asante_twi_senti,slim p beef bra err
+7556,saa esallcee foc wei,no sentiment,mixed,multilingual,asante_twi_senti,saa esallcee foc wei
+7567,saa saa cos business is  business,no sentiment,mixed,multilingual,asante_twi_senti,saa saa cos business is business
+7577,so if atsu dies its gods plan but if he is rescued then lets give praise to god ny saa,no sentiment,mixed,multilingual,asante_twi_senti,so if atsu dies its gods plan but if he is rescued then lets give praise to god ny saa
+7605,ooohh masa ma feele wo linez no,multilingual,mixed,multilingual,asante_twi_senti,ooohh masa ma feele wo linez no
+7931,ka ne w twi mu   one user followed me and one user unfollowed me today checked via,positive & negative,mixed,multilingual,asante_twi_senti,ka ne w twi mu one user followed me and one user unfollowed me today checked via
+7983,shouldnt it be onnim and obewu,positive & negative,mixed,multilingual,asante_twi_senti,shouldnt it be onnim and obewu
+8073,hmm does biribi always have to si for biribi to y yie hmmmmmm,no sentiment,mixed,multilingual,asante_twi_senti,hmm does biribi always have to si for biribi to y yie hmmmmmm
+8171,remix ansa na yɛɛwo akwadaa nyansani no na yawo panyin kwasia😂😂,positive & negative,mixed,multilingual,asante_twi_senti,remix ansa na yɛɛwo akwadaa nyansani no na yawo panyin kwasia😂😂
+8195,as is said obi ny ne kese kwa,no sentiment,mixed,multilingual,asante_twi_senti,as is said obi ny ne kese kwa
+8202,david ornstein he brings the final piece fabrizio go speculate saa wobehu na chelsea go buy am,multilingual,mixed,multilingual,asante_twi_senti,david ornstein he brings the final piece fabrizio go speculate saa wobehu na chelsea go buy am
+8235,you be akosua or adwoa cuz eiiii 😹😹 sohofriday,multilingual,mixed,multilingual,asante_twi_senti,you be akosua or adwoa cuz eiiii 😹😹 sohofriday
+8248,wode maya hin sister that  😂😂video,no sentiment,mixed,multilingual,asante_twi_senti,wode maya hin sister that 😂😂video
+8251,this talk talk saa na years trophiless,no sentiment,mixed,multilingual,asante_twi_senti,this talk talk saa na years trophiless
+8254,eeeiii saabuh lets just hope its true🙏,no sentiment,mixed,multilingual,asante_twi_senti,eeeiii saabuh lets just hope its true🙏
+8257,coach akwasi macho,no sentiment,mixed,multilingual,asante_twi_senti,coach akwasi macho
+8270,nalisa nono been dming you saa but no answer,multilingual,mixed,multilingual,asante_twi_senti,nalisa nono been dming you saa but no answer
+8277,mmaa wo asaase wei so wa te that said,multilingual,mixed,multilingual,asante_twi_senti,mmaa wo asaase wei so wa te that said
+8278,eeeeei yaw amponsah🔥🔥🔥🔥🔥🔥🔥🔥🔥,no sentiment,mixed,multilingual,asante_twi_senti,eeeeei yaw amponsah🔥🔥🔥🔥🔥🔥🔥🔥🔥
+8297,wode volu zali a and you are shemi fi egan politics,no sentiment,mixed,multilingual,asante_twi_senti,wode volu zali a and you are shemi fi egan politics
+8300,rebet saa na aka wo pesewas,multilingual,mixed,multilingual,asante_twi_senti,rebet saa na aka wo pesewas
+8304,aahh where is yaa pono n samini 😂😂😂😂😂,no sentiment,mixed,multilingual,asante_twi_senti,aahh where is yaa pono n samini 😂😂😂😂😂
+8307,i do saa nothing for me nana agyemang  bless me today 😥😥😥🙏🙏🙏god bless  stcomkehlxgz,multilingual,mixed,multilingual,asante_twi_senti,i do saa nothing for me nana agyemang bless me today 😥😥😥🙏🙏🙏god bless stcomkehlxgz
+8343,asaase broadcasting company abc  accra,no sentiment,mixed,multilingual,asante_twi_senti,asaase broadcasting company abc accra
+8345,oh laud  saa okodie no nie okodie,no sentiment,mixed,multilingual,asante_twi_senti,oh laud saa okodie no nie okodie
+8355,he did  shows in  different places and sold them all out including the islington you mentioned na wode gyimi saa😂😂😂,positive & negative,mixed,multilingual,asante_twi_senti,he did shows in different places and sold them all out including the islington you mentioned na wode gyimi saa😂😂😂
+8368,results aane do,no sentiment,mixed,multilingual,asante_twi_senti,results aane do
+8395,akosua nocturnal 😂,no sentiment,mixed,multilingual,asante_twi_senti,akosua nocturnal 😂
+8417,saa rasta wei ankasa we for lash am na be too funny 😂,positive & negative,mixed,multilingual,asante_twi_senti,saa rasta wei ankasa we for lash am na be too funny 😂
+8432,are you readddyyyyy🥶🥶do you have the energy🙀🙀can you stand the heat of what’s comingggg🔥🔥🔥set your reminder⏰akwaaba bash is coming your way so get your kicks  ss it 🥳🥳🥳🥳🥳watch this spaceeee‼️‼️‼️akwaababash melssafamily  shnhdznpxm,non twi,mixed,multilingual,asante_twi_senti,are you readddyyyyy🥶🥶do you have the energy🙀🙀can you stand the heat of what’s comingggg🔥🔥🔥set your reminder⏰akwaaba bash is coming your way so get your kicks ss it 🥳🥳🥳🥳🥳watch this spaceeee‼️‼️‼️akwaababash melssafamily shnhdznpxm
+8440,retweet my pinned tweet gimme atia ft yaa pono banku atiabanku,positive & negative,mixed,multilingual,asante_twi_senti,retweet my pinned tweet gimme atia ft yaa pono banku atiabanku
+8457,i read the thing saa 😹😹😹,no sentiment,mixed,multilingual,asante_twi_senti,i read the thing saa 😹😹😹
+8472,ghanas former chief justice,no sentiment,mixed,multilingual,asante_twi_senti,ghanas former chief justice
+8486,nowplaying  yaw sarpong  ahobrase ft sarkodie amp asomafo on ghana music radio just tune in  sxzadyc follow   africanmusic onlineradioget the ghana music radio app on google play amp app store now,non twi,mixed,multilingual,asante_twi_senti,nowplaying yaw sarpong ahobrase ft sarkodie amp asomafo on ghana music radio just tune in sxzadyc follow africanmusic onlineradioget the ghana music radio app on google play amp app store now
+8495,me duele todo,no sentiment,mixed,multilingual,asante_twi_senti,me duele todo
+8512,you like violence o wo saa boy yi,non twi,mixed,multilingual,asante_twi_senti,you like violence o wo saa boy yi
+8564,broke and proud exists lol its called stubborn proud 😂😂😂😂😂😂wonni kapr nso wɔwɔ vision bi 😂😂😂😂😂😂,positive & negative,mixed,multilingual,asante_twi_senti,broke and proud exists lol its called stubborn proud 😂😂😂😂😂😂wonni kapr nso wɔwɔ vision bi 😂😂😂😂😂😂
+8589,thank you  for sharing this great piece with us we won’t stay apolitical that’s why we will still choose npp  in  but why will you call ndc fools you were their leader too oo anaa 🤔 pauseandsaysomething,positive & negative,mixed,multilingual,asante_twi_senti,thank you for sharing this great piece with us we won’t stay apolitical that’s why we will still choose npp in but why will you call ndc fools you were their leader too oo anaa 🤔 pauseandsaysomething
+8590,why are the united and liverpool fans crying the were happy we had american owners anaa,positive & negative,mixed,multilingual,asante_twi_senti,why are the united and liverpool fans crying the were happy we had american owners anaa
+8603,tech anaa😂😂,no sentiment,mixed,multilingual,asante_twi_senti,tech anaa😂😂
+8605,scheme anaa s sen 😂😂😂,no sentiment,mixed,multilingual,asante_twi_senti,scheme anaa s sen 😂😂😂
+8631,will u be my val 😅😂anaa wose ebi trap 🪤 😂,positive & negative,mixed,multilingual,asante_twi_senti,will u be my val 😅😂anaa wose ebi trap 🪤 😂
+8642,anaa dubai,no sentiment,mixed,multilingual,asante_twi_senti,anaa dubai
+8658,and  bus stop nkoaa  million old ghana cedisaden you will be giving breakfast and supper there anaais this the invictus 😒,positive & negative,mixed,multilingual,asante_twi_senti,and bus stop nkoaa million old ghana cedisaden you will be giving breakfast and supper there anaais this the invictus 😒
+8682,mention his name eh anaa wo suro the yellow yellow ppl,positive & negative,mixed,multilingual,asante_twi_senti,mention his name eh anaa wo suro the yellow yellow ppl
+8702,for the table anaa,no sentiment,mixed,multilingual,asante_twi_senti,for the table anaa
+8726,ghamsu anaa,no sentiment,mixed,multilingual,asante_twi_senti,ghamsu anaa
+8795,chelsea fo na mo expecti something different anaa,positive & negative,mixed,multilingual,asante_twi_senti,chelsea fo na mo expecti something different anaa
+8805,kwaku  wada anaa wada dea sore  sulyiz,no sentiment,mixed,multilingual,asante_twi_senti,kwaku wada anaa wada dea sore sulyiz
+8826,castle anaa school,no sentiment,mixed,multilingual,asante_twi_senti,castle anaa school
+8848,ei you anaa😂,no sentiment,mixed,multilingual,asante_twi_senti,ei you anaa😂
+8865,kotoko anaa hearts,no sentiment,mixed,multilingual,asante_twi_senti,kotoko anaa hearts
+8869,hard disk anaa,no sentiment,mixed,multilingual,asante_twi_senti,hard disk anaa
+8877,kofi kodzi anaa 🤣,no sentiment,mixed,multilingual,asante_twi_senti,kofi kodzi anaa 🤣
+8925,tv always employ controversial people to work fr them oo esp onua tv tweaaaablack rasta nso y nipa😏,positive & negative,mixed,multilingual,asante_twi_senti,tv always employ controversial people to work fr them oo esp onua tv tweaaaablack rasta nso y nipa😏
+8932,😂😂starch nso oo,no sentiment,mixed,multilingual,asante_twi_senti,😂😂starch nso oo
+8940,mills givt had to look for money and start the ssssmahama later in  has to look for money to settle kuffours matured eurobondwei nso erhhh,positive & negative,mixed,multilingual,asante_twi_senti,mills givt had to look for money and start the ssssmahama later in has to look for money to settle kuffours matured eurobondwei nso erhhh
+8962,kwan tia y musuoo me pa mo kyew kwan tia biaa nni ghana ha si canada saa kwan wei nkoaa de mefa so😂,positive & negative,mixed,multilingual,asante_twi_senti,kwan tia y musuoo me pa mo kyew kwan tia biaa nni ghana ha si canada saa kwan wei nkoaa de mefa so😂
+8965,over here de mena me control boys de mka na y final obiaa nni choice 💙👿,positive & negative,mixed,multilingual,asante_twi_senti,over here de mena me control boys de mka na y final obiaa nni choice 💙👿
+8971,ghanaian proverb bɛntoa nni kaprɛ nso trumu akɛseɛ na odi,no sentiment,mixed,multilingual,asante_twi_senti,ghanaian proverb bɛntoa nni kaprɛ nso trumu akɛseɛ na odi
+8980,kai d kai oh ghanaians d dabi dabi,positive & negative,mixed,multilingual,asante_twi_senti,kai d kai oh ghanaians d dabi dabi
+8992,aybi da  let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏  soikinbyrw,positive & negative,mixed,multilingual,asante_twi_senti,aybi da let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏 soikinbyrw
+8995,aybi da  let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏  sduzoi,positive & negative,mixed,multilingual,asante_twi_senti,aybi da let ur blessings flow on me tonighti have tag you since morning tee saa oo i no see anything ooo 🙏🙏🙏🙏🙏 sduzoi
+8998,doc my woman experiences all plus lower abdominal pains at first they said she had candidiasis buh we have treated it saa no results,no sentiment,mixed,multilingual,asante_twi_senti,doc my woman experiences all plus lower abdominal pains at first they said she had candidiasis buh we have treated it saa no results
+9001,ya nante saa ama yeni nkosua aye brown…still grinding,positive & negative,mixed,multilingual,asante_twi_senti,ya nante saa ama yeni nkosua aye brown…still grinding
+9002,and who said pastors cant relate with things like football im a pure united fan and do like bruno but lets set records straight hes game yesterday was not up to the standard we know of him they lose the team loses u guys stop singling out players na mu p saa dodo,no sentiment,mixed,multilingual,asante_twi_senti,and who said pastors cant relate with things like football im a pure united fan and do like bruno but lets set records straight hes game yesterday was not up to the standard we know of him they lose the team loses u guys stop singling out players na mu p saa dodo
+9009,ohh💔 dabro saa ne sister no na ɔyɛ me deɛ o ɔyɛ nipa bia,positive & negative,mixed,multilingual,asante_twi_senti,ohh💔 dabro saa ne sister no na ɔyɛ me deɛ o ɔyɛ nipa bia
+9016,bro i tweet saa,no sentiment,mixed,multilingual,asante_twi_senti,bro i tweet saa
+9020,ghana yesu i have engaged in ur giveaway saa but no avail☹️☹️😟😟 pls bless me this morning,positive & negative,mixed,multilingual,asante_twi_senti,ghana yesu i have engaged in ur giveaway saa but no avail☹️☹️😟😟 pls bless me this morning
+9023,saa ppp alanforallafa,no sentiment,mixed,multilingual,asante_twi_senti,saa ppp alanforallafa
+9039,i have been searching for it on telegram saa 😂,no sentiment,mixed,multilingual,asante_twi_senti,i have been searching for it on telegram saa 😂
+9046,she has been saying it saa,no sentiment,mixed,multilingual,asante_twi_senti,she has been saying it saa
+9047,so if atsu dies its gods plan but if he is rescued then lets give praise to god ny saa,positive & negative,mixed,multilingual,asante_twi_senti,so if atsu dies its gods plan but if he is rescued then lets give praise to god ny saa
+9049,menni watm ohh naa menny saa di matm s de wop biaa sweetheart,positive & negative,mixed,multilingual,asante_twi_senti,menni watm ohh naa menny saa di matm s de wop biaa sweetheart
+9054,ohh really saa i think he was our best player without scientific data source he deserves the award,positive & negative,mixed,multilingual,asante_twi_senti,ohh really saa i think he was our best player without scientific data source he deserves the award
+9075,aba saa 🎶  dr paa bobo,no sentiment,mixed,multilingual,asante_twi_senti,aba saa 🎶 dr paa bobo
+9087,eeii saa pls wheres yesterdays behind the scenes bro,no sentiment,mixed,multilingual,asante_twi_senti,eeii saa pls wheres yesterdays behind the scenes bro
+9090,i’m more than what she is saying but mabr saa girl nu 🤣🤣🤣lol,positive & negative,mixed,multilingual,asante_twi_senti,i’m more than what she is saying but mabr saa girl nu 🤣🤣🤣lol
+9098,a saa na im waiting for it gh will sort me out for the morning just that for koko  for waakye  for banku and more meat 😂 💔,no sentiment,mixed,multilingual,asante_twi_senti,a saa na im waiting for it gh will sort me out for the morning just that for koko for waakye for banku and more meat 😂 💔
+9102,whenever you buy gɔbɛ dont but  but buy ₵ saa two,no sentiment,mixed,multilingual,asante_twi_senti,whenever you buy gɔbɛ dont but but buy ₵ saa two
+9105,i work oo and i hadnt slept the night before bruh i sit work saa till end of day i no go lunch self 🤣,no sentiment,mixed,multilingual,asante_twi_senti,i work oo and i hadnt slept the night before bruh i sit work saa till end of day i no go lunch self 🤣
+9116,i have been tweeting this saa oo super pls see me through   svuaqdyt,positive & negative,mixed,multilingual,asante_twi_senti,i have been tweeting this saa oo super pls see me through svuaqdyt
+9118,one one saa then it’s time for the final exam,no sentiment,mixed,multilingual,asante_twi_senti,one one saa then it’s time for the final exam
+9122,twi versionna me se ninpɔn agya kankam dacosta yɛ ɛkane mfinfini mantɛm soafoɔ ɛwɔ hilla limann pɛn so wabusua mu hwan na aduru saa mpɛnpɛnsoɔ wei wanim sɛ mfutu kwan,no sentiment,mixed,multilingual,asante_twi_senti,twi versionna me se ninpɔn agya kankam dacosta yɛ ɛkane mfinfini mantɛm soafoɔ ɛwɔ hilla limann pɛn so wabusua mu hwan na aduru saa mpɛnpɛnsoɔ wei wanim sɛ mfutu kwan
+9151,the one thing i really like about rodrygo  he is more direct and looks for the fastest route to goal but vinicius de daabi showboating saa he can’t even shoot with his left 🤦🏽‍♂️,positive & negative,mixed,multilingual,asante_twi_senti,the one thing i really like about rodrygo he is more direct and looks for the fastest route to goal but vinicius de daabi showboating saa he can’t even shoot with his left 🤦🏽‍♂️
+9159,there is no way i will insult your parents because am sensible thanks aunty gyimie saa,positive & negative,mixed,multilingual,asante_twi_senti,there is no way i will insult your parents because am sensible thanks aunty gyimie saa
+9169,saa how u will do it,no sentiment,mixed,multilingual,asante_twi_senti,saa how u will do it
+9170,kwan tia y musuoo me pa mo kyew kwan tia biaa nni ghana ha si canada saa kwan wei nkoaa de mefa so😂,no sentiment,mixed,multilingual,asante_twi_senti,kwan tia y musuoo me pa mo kyew kwan tia biaa nni ghana ha si canada saa kwan wei nkoaa de mefa so😂
+9175,yes ooo around pm bi saa no,no sentiment,mixed,multilingual,asante_twi_senti,yes ooo around pm bi saa no
+9182,credit the commentator na mu pɛ saa,positive & negative,mixed,multilingual,asante_twi_senti,credit the commentator na mu pɛ saa
+9204,matron mabr saa but nyame adom nti m’ay fit biom,positive & negative,mixed,multilingual,asante_twi_senti,matron mabr saa but nyame adom nti m’ay fit biom
+9215,ayooo korso saa but  you get nyash ooo ☺️🤣🤣🤣🤣,positive & negative,mixed,multilingual,asante_twi_senti,ayooo korso saa but you get nyash ooo ☺️🤣🤣🤣🤣
+9241,me wfaase adepa homework na mo de abto ha saa no🤣,no sentiment,mixed,multilingual,asante_twi_senti,me wfaase adepa homework na mo de abto ha saa no🤣
+9242,hmmm saa boy wei cy lost soul oo😂😂😂 i’m surprised it’s not,positive & negative,mixed,multilingual,asante_twi_senti,hmmm saa boy wei cy lost soul oo😂😂😂 i’m surprised it’s not
+9254,flow ne melodies no me de b ma mo back to back saa,no sentiment,mixed,multilingual,asante_twi_senti,flow ne melodies no me de b ma mo back to back saa
+9259,na mo capo abeiku santana no saa na ote ohh… there’s no “wopre” with what he is doing,positive & negative,mixed,multilingual,asante_twi_senti,na mo capo abeiku santana no saa na ote ohh… there’s no “wopre” with what he is doing
+9264,i barb but my point is some want u to move almost immediately even if they can see it’s not convenient for u like maybe there’s another car blocking u in the other lane one time one driver did that and i intentionally blocked him saa until he changed direction,no sentiment,mixed,multilingual,asante_twi_senti,i barb but my point is some want u to move almost immediately even if they can see it’s not convenient for u like maybe there’s another car blocking u in the other lane one time one driver did that and i intentionally blocked him saa until he changed direction
+9265,wo di gyimii saa ei 🔥u are not musician u are ghanaian comedian keep the funnys video coming ebia u can be a hit on tiktok 🤣🤣,positive & negative,mixed,multilingual,asante_twi_senti,wo di gyimii saa ei 🔥u are not musician u are ghanaian comedian keep the funnys video coming ebia u can be a hit on tiktok 🤣🤣
+9287,i thought you loved us mnfa saa mmba waii,positive & negative,mixed,multilingual,asante_twi_senti,i thought you loved us mnfa saa mmba waii
+9292,very soon her prayers will mame bi saa,positive & negative,mixed,multilingual,asante_twi_senti,very soon her prayers will mame bi saa
+9318,hahaha yaw gyae saa the clubs spending more than liverpool should tickle your curiosity a little and elicit and deeper analysis in fact liverpool fans can forgiven for acting that way 🤣🤣🤣 wei nkoaa de you cant gag us,positive & negative,mixed,multilingual,asante_twi_senti,hahaha yaw gyae saa the clubs spending more than liverpool should tickle your curiosity a little and elicit and deeper analysis in fact liverpool fans can forgiven for acting that way 🤣🤣🤣 wei nkoaa de you cant gag us
+9330,meetings saa na  suiq,no sentiment,mixed,multilingual,asante_twi_senti,meetings saa na suiq
+9331,yeah they didn’t give us youtube live so i enjoyed the recorded one no saa,no sentiment,mixed,multilingual,asante_twi_senti,yeah they didn’t give us youtube live so i enjoyed the recorded one no saa
+9338,🔥j  u  s  t        d  r  o  p  p  e  d🔥 🔊 din bi woho 🔊 by soul winners  🔛 thecalling 🛐w 🇬🇭 best urban 📻,no sentiment,mixed,multilingual,asante_twi_senti,🔥j u s t d r o p p e d🔥 🔊 din bi woho 🔊 by soul winners 🔛 thecalling 🛐w 🇬🇭 best urban 📻
+9341,🔥j  u  s  t        d  r  o  p  p  e  d🔥 🔊 ne din ne yesu 🔊 by juliet antwi amoah 🔛 thecalling 🛐w 🇬🇭 best urban 📻,no sentiment,mixed,multilingual,asante_twi_senti,🔥j u s t d r o p p e d🔥 🔊 ne din ne yesu 🔊 by juliet antwi amoah 🔛 thecalling 🛐w 🇬🇭 best urban 📻
+9343,🔥j  u  s  t        d  r  o  p  p  e  d🔥 🔊  mebo wo din daa🔊 by daughters of glorious jesus 🔛 shoutsony 🗣 w x  🇬🇭 best urban 📻,no sentiment,mixed,multilingual,asante_twi_senti,🔥j u s t d r o p p e d🔥 🔊 mebo wo din daa🔊 by daughters of glorious jesus 🔛 shoutsony 🗣 w x 🇬🇭 best urban 📻
+9353,kennedy didi ne papa din ho…as kennedy y billionaire 😊,positive & negative,mixed,multilingual,asante_twi_senti,kennedy didi ne papa din ho…as kennedy y billionaire 😊
+9356,callusdid you know that you can install a solar water heater in your home or business and save money on monthly billscall the din engineering at ± amp learn more about saving money while using cleanenergy 👇👇👇  ssvw,no sentiment,mixed,multilingual,asante_twi_senti,callusdid you know that you can install a solar water heater in your home or business and save money on monthly billscall the din engineering at ± amp learn more about saving money while using cleanenergy 👇👇👇 ssvw
+9359,ankasa yɛ bɛfa plans,no sentiment,mixed,multilingual,asante_twi_senti,ankasa yɛ bɛfa plans
+9368,you get the information about the whereabout of atsu anaa,no sentiment,mixed,multilingual,asante_twi_senti,you get the information about the whereabout of atsu anaa
+9382,vodafone sim anaa din,no sentiment,mixed,multilingual,asante_twi_senti,vodafone sim anaa din
+9389,twitter anaa,no sentiment,mixed,multilingual,asante_twi_senti,twitter anaa
+9396,adn despite se op president anaa,positive & negative,mixed,multilingual,asante_twi_senti,adn despite se op president anaa
+9398,some story be anaa,no sentiment,mixed,multilingual,asante_twi_senti,some story be anaa
+9402,but geovani wo ti so ooowisdom nkoaa anaa me boa🤣,positive & negative,mixed,multilingual,asante_twi_senti,but geovani wo ti so ooowisdom nkoaa anaa me boa🤣
+9405,but he managed excape anaa,positive & negative,mixed,multilingual,asante_twi_senti,but he managed excape anaa
+9407,wo hsprre something different anaa,no sentiment,mixed,multilingual,asante_twi_senti,wo hsprre something different anaa
+9412,which subject do you teach please anaa all subjects,no sentiment,mixed,multilingual,asante_twi_senti,which subject do you teach please anaa all subjects
+9413,days anaa,no sentiment,mixed,multilingual,asante_twi_senti,days anaa

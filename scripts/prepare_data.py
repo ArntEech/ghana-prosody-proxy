@@ -1,182 +1,322 @@
-from pathlib import Path
+import os
+import re
 import pandas as pd
 
-
-ROOT = Path(__file__).resolve().parents[1]
-
-RAW_DIR = ROOT / "data" / "raw" / "asante_twi_senti"
-PROCESSED_DIR = ROOT / "data" / "processed"
-
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+from sklearn.model_selection import train_test_split
 
 
-def load_dataset(filename, language, dataset_type):
-    """
-    Load an AsanteTwiSenti dataset and convert it into
-    the project's common schema.
-    """
-
-    file_path = RAW_DIR / filename
-
-    if not file_path.exists():
-        raise FileNotFoundError(
-            f"Dataset not found: {file_path}"
-        )
-
-    df = pd.read_csv(file_path)
-
-    print(f"Loaded {filename}: {len(df)} rows")
-
-    # Rename dataset columns to project-standard names
-    df = df.rename(
-        columns={
-            "tweets": "tweet",
-            "labels": "label"
-        }
-    )
-
-    # Keep required columns
-    df = df[["tweet", "label"]].copy()
-
-    # Add metadata
-    df["language"] = language
-    df["dataset_type"] = dataset_type
-    df["dataset"] = "asante_twi_senti"
-
-    return df
+INPUT_PATH = "data/processed/corpus_processed.csv"
+OUTPUT_PATH = "data/processed/corpus_processed.csv"
+EXCLUDED_PATH = "data/processed/excluded_labels.csv"
 
 
-# ============================================================
-# LOAD TWI DATA
-# ============================================================
+# --------------------------------------------------
+# Configuration
+# --------------------------------------------------
 
-twi_df = load_dataset(
-    filename="labeled_twi_tweets.csv",
-    language="twi",
-    dataset_type="monolingual"
-)
-
-
-# ============================================================
-# LOAD GHANAIAN PIDGIN DATA
-# ============================================================
-
-pidgin_df = load_dataset(
-    filename="labeled_ghana_pidgin_tweets.csv",
-    language="ghanaian_pidgin",
-    dataset_type="pidgin"
-)
-
-
-# ============================================================
-# LOAD MULTILINGUAL DATA
-# ============================================================
-
-multilingual_df = load_dataset(
-    filename="labeled_multilingual_tweets.csv",
-    language="mixed",
-    dataset_type="multilingual"
-)
-
-
-# ============================================================
-# COMBINE DATASETS
-# ============================================================
-
-combined_df = pd.concat(
-    [
-        twi_df,
-        pidgin_df,
-        multilingual_df
-    ],
-    ignore_index=True
-)
-
-
-# ============================================================
-# CLEAN DATA
-# ============================================================
-
-# Remove missing tweets or labels
-combined_df = combined_df.dropna(
-    subset=["tweet", "label"]
-)
-
-# Convert tweets to strings
-combined_df["tweet"] = (
-    combined_df["tweet"]
-    .astype(str)
-    .str.strip()
-)
-
-# Remove empty tweets
-combined_df = combined_df[
-    combined_df["tweet"].str.len() > 0
+VALID_LABELS = [
+    "positive",
+    "negative",
+    "neutral"
 ]
 
-# Standardise labels
-combined_df["label"] = (
-    combined_df["label"]
-    .astype(str)
-    .str.strip()
-    .str.lower()
-)
+
+def clean_text(text):
+    """
+    Performs light cleaning while preserving features
+    important for prosodic and pragmatic analysis.
+
+    Preserved:
+    - emojis
+    - repeated characters
+    - capitalization
+    - punctuation
+    """
+
+    if pd.isna(text):
+        return ""
+
+    text = str(text)
+
+    # Replace URLs
+    text = re.sub(
+        r"http\S+|www\S+",
+        "<URL>",
+        text
+    )
+
+    # Replace user mentions
+    text = re.sub(
+        r"@\w+",
+        "<USER>",
+        text
+    )
+
+    # Normalize excessive whitespace
+    text = re.sub(
+        r"\s+",
+        " ",
+        text
+    ).strip()
+
+    return text
 
 
-# ============================================================
-# ADD ID
-# ============================================================
+def main():
 
-combined_df.insert(
-    0,
-    "id",
-    range(1, len(combined_df) + 1)
-)
+    print("=" * 60)
+    print("PREPARING ASANTETWISENTI DATASET")
+    print("=" * 60)
+
+    # --------------------------------------------------
+    # Load dataset
+    # --------------------------------------------------
+
+    print("\nLoading dataset...")
+
+    df = pd.read_csv(INPUT_PATH)
+
+    print(f"Original dataset shape: {df.shape}")
+
+    print("\nColumns found:")
+    print(df.columns.tolist())
+
+    # --------------------------------------------------
+    # Validate required columns
+    # --------------------------------------------------
+
+    required_columns = ["text", "label"]
+
+    for column in required_columns:
+
+        if column not in df.columns:
+
+            raise ValueError(
+                f"Required column '{column}' not found."
+            )
+
+    # --------------------------------------------------
+    # Inspect original labels
+    # --------------------------------------------------
+
+    print("\nOriginal label distribution:")
+
+    print(
+        df["label"].value_counts()
+    )
+
+    # --------------------------------------------------
+    # Remove missing text/labels
+    # --------------------------------------------------
+
+    df = df.dropna(
+        subset=["text", "label"]
+    ).copy()
+
+    print(
+        f"\nShape after removing missing values: "
+        f"{df.shape}"
+    )
+
+    # --------------------------------------------------
+    # Create clean text
+    # --------------------------------------------------
+
+    print("\nCreating clean_text column...")
+
+    df["clean_text"] = df["text"].apply(
+        clean_text
+    )
+
+    # Remove empty text
+
+    df = df[
+        df["clean_text"].str.strip() != ""
+    ].copy()
+
+    # --------------------------------------------------
+    # Keep only valid sentiment labels
+    # --------------------------------------------------
+
+    print("\nFiltering sentiment labels...")
+
+    valid_mask = df["label"].isin(
+        VALID_LABELS
+    )
+
+    excluded_df = df[
+        ~valid_mask
+    ].copy()
+
+    df = df[
+        valid_mask
+    ].copy()
+
+    print(
+        f"Retained sentiment examples: {len(df)}"
+    )
+
+    print(
+        f"Excluded non-standard examples: "
+        f"{len(excluded_df)}"
+    )
+
+    # --------------------------------------------------
+    # Save excluded records for transparency
+    # --------------------------------------------------
+
+    os.makedirs(
+        os.path.dirname(EXCLUDED_PATH),
+        exist_ok=True
+    )
+
+    excluded_df.to_csv(
+        EXCLUDED_PATH,
+        index=False,
+        encoding="utf-8"
+    )
+
+    print(
+        f"\nExcluded records saved to:\n"
+        f"{EXCLUDED_PATH}"
+    )
+
+    # --------------------------------------------------
+    # Display clean label distribution
+    # --------------------------------------------------
+
+    print("\nClean sentiment distribution:")
+
+    print(
+        df["label"].value_counts()
+    )
+
+    # --------------------------------------------------
+    # Create train/dev/test split
+    # --------------------------------------------------
+
+    print(
+        "\nCreating stratified "
+        "train/dev/test splits..."
+    )
+
+    # 70% training
+    # 30% temporary
+
+    train_df, temp_df = train_test_split(
+        df,
+        test_size=0.30,
+        random_state=42,
+        stratify=df["label"]
+    )
+
+    # Split remaining 30% into:
+    # 15% development
+    # 15% test
+
+    dev_df, test_df = train_test_split(
+        temp_df,
+        test_size=0.50,
+        random_state=42,
+        stratify=temp_df["label"]
+    )
+
+    # --------------------------------------------------
+    # Add split labels
+    # --------------------------------------------------
+
+    train_df = train_df.copy()
+    dev_df = dev_df.copy()
+    test_df = test_df.copy()
+
+    train_df["split"] = "train"
+    dev_df["split"] = "dev"
+    test_df["split"] = "test"
+
+    # --------------------------------------------------
+    # Combine datasets
+    # --------------------------------------------------
+
+    final_df = pd.concat(
+        [
+            train_df,
+            dev_df,
+            test_df
+        ],
+        ignore_index=True
+    )
+
+    # Shuffle
+
+    final_df = final_df.sample(
+        frac=1,
+        random_state=42
+    ).reset_index(
+        drop=True
+    )
+
+    # --------------------------------------------------
+    # Save processed dataset
+    # --------------------------------------------------
+
+    os.makedirs(
+        os.path.dirname(OUTPUT_PATH),
+        exist_ok=True
+    )
+
+    final_df.to_csv(
+        OUTPUT_PATH,
+        index=False,
+        encoding="utf-8"
+    )
+
+    # --------------------------------------------------
+    # Final summary
+    # --------------------------------------------------
+
+    print("\n" + "=" * 60)
+    print("DATA PREPARATION COMPLETE")
+    print("=" * 60)
+
+    print(
+        f"\nFinal dataset shape: "
+        f"{final_df.shape}"
+    )
+
+    print("\nSplit distribution:")
+
+    print(
+        final_df["split"].value_counts()
+    )
+
+    print("\nLabel distribution:")
+
+    print(
+        final_df["label"].value_counts()
+    )
+
+    print("\nLabel distribution by split:")
+
+    print(
+        pd.crosstab(
+            final_df["split"],
+            final_df["label"]
+        )
+    )
+
+    print("\nFinal columns:")
+
+    print(
+        final_df.columns.tolist()
+    )
+
+    print(
+        f"\nProcessed dataset saved to:\n"
+        f"{OUTPUT_PATH}"
+    )
+
+    print("\nPreparation successful!")
 
 
-# ============================================================
-# SAVE
-# ============================================================
-
-output_path = (
-    PROCESSED_DIR /
-    "corpus_processed.csv"
-)
-
-combined_df.to_csv(
-    output_path,
-    index=False,
-    encoding="utf-8"
-)
-
-
-# ============================================================
-# REPORT
-# ============================================================
-
-print("\n" + "=" * 60)
-print("DATA PREPARATION COMPLETE")
-print("=" * 60)
-
-print(f"\nTotal tweets: {len(combined_df)}")
-
-print("\nLanguage distribution:")
-print(
-    combined_df["language"]
-    .value_counts()
-)
-
-print("\nDataset type distribution:")
-print(
-    combined_df["dataset_type"]
-    .value_counts()
-)
-
-print("\nSentiment distribution:")
-print(
-    combined_df["label"]
-    .value_counts()
-)
-
-print(f"\nSaved processed corpus to:")
-print(output_path)
+if __name__ == "__main__":
+    main()
