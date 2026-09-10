@@ -1,217 +1,379 @@
 import re
+import unicodedata
 
 
-# Candidate Ghanaian / Ghanaian-English / Pidgin pragmatic markers
-PRAGMATIC_PARTICLES = {
+# --------------------------------------------------
+# Ghanaian pragmatic markers / particles
+# --------------------------------------------------
+
+FINAL_PARTICLES = [
     "o",
     "oo",
     "ooo",
-    "paa",
-    "saaa",
     "aa",
-    "eh",
-    "ehe",
+    "saa",
+    "paa",
+    "saa",
+    "waa",
+    "wai",
+    "wae",
+    "la",
+    "koraa",
+    "kraa",
+]
+
+
+# --------------------------------------------------
+# Ghanaian interjections
+# --------------------------------------------------
+
+INTERJECTIONS = [
     "ei",
+    "eii",
+    "ehe",
+    "eh",
     "eish",
     "hmm",
-    "hmmm"
-}
+    "hmmm",
+    "huh",
+]
 
 
-def detect_elongation(text):
+def count_repeated_characters(text):
     """
-    Detect repeated characters such as:
-    chaleeee
-    soooo
-    whaaaat
+    Counts occurrences of characters repeated
+    three or more times.
+
+    Example:
+        Chaleeee -> 1
+        soooo -> 1
     """
 
-    pattern = r"(\w)\1{2,}"
-
-    matches = re.findall(pattern, text, flags=re.IGNORECASE)
-
-    elongated_sequences = re.findall(
-        r"\w*(\w)\1{2,}\w*",
-        text,
-        flags=re.IGNORECASE
+    matches = re.findall(
+        r"(.)\1{2,}",
+        text.lower()
     )
 
-    return {
-        "elongation_count": len(matches),
-        "elongated_tokens": len(elongated_sequences)
-    }
+    return len(matches)
 
 
-def max_character_repetition(text):
+def max_character_elongation(text):
     """
-    Find the longest consecutive repeated-character sequence.
+    Returns the longest sequence of repeated
+    characters.
     """
 
-    matches = re.findall(r"(.)\1+", text)
+    matches = re.findall(
+        r"(.)\1+",
+        text.lower()
+    )
 
     if not matches:
         return 1
 
-    sequences = re.findall(r"(.)\1+", text)
-
     max_length = 1
 
-    for char in set(sequences):
-        pattern = re.escape(char) + "+"
-        runs = re.findall(pattern, text)
-
-        for run in runs:
-            max_length = max(max_length, len(run))
+    for match in re.finditer(
+        r"(.)\1+",
+        text.lower()
+    ):
+        max_length = max(
+            max_length,
+            len(match.group())
+        )
 
     return max_length
 
 
-def calculate_elongation_index(text):
-    """
-    Calculate a simple normalized elongation measure.
+def count_exclamation_marks(text):
+    return text.count("!")
 
-    EI = number of repeated-character sequences / total tokens
-    """
 
-    tokens = text.split()
+def count_question_marks(text):
+    return text.count("?")
 
-    if len(tokens) == 0:
-        return 0.0
 
-    repeated_sequences = re.findall(
-        r"(\w)\1{2,}",
-        text,
-        flags=re.IGNORECASE
+def count_periods(text):
+    return text.count(".")
+
+
+def count_ellipsis(text):
+    return len(
+        re.findall(
+            r"\.{3,}",
+            text
+        )
     )
 
-    return len(repeated_sequences) / len(tokens)
 
-
-def punctuation_features(text):
+def count_punctuation_stacks(text):
     """
-    Extract punctuation-based expressive features.
-    """
+    Counts combinations such as:
 
-    return {
-        "exclamation_count": text.count("!"),
-        "question_count": text.count("?"),
-        "combined_punctuation": int("?!" in text or "!?" in text),
-        "repeated_exclamation": int("!!" in text),
-        "repeated_question": int("??" in text),
-        "ellipsis_count": text.count("...")
-    }
-
-
-def capitalization_features(text):
-    """
-    Extract capitalization features.
+        !!!
+        ???
+        ?!
+        !?
     """
 
-    words = re.findall(r"\b[A-Za-z]+\b", text)
+    return len(
+        re.findall(
+            r"[!?]{2,}",
+            text
+        )
+    )
 
-    if not words:
-        return {
-            "uppercase_ratio": 0.0,
-            "full_caps_tokens": 0
-        }
 
-    uppercase_words = [
-        word for word in words
-        if len(word) > 1 and word.isupper()
+def uppercase_ratio(text):
+    """
+    Ratio of uppercase alphabetic characters
+    to all alphabetic characters.
+    """
+
+    letters = [
+        char for char in text
+        if char.isalpha()
     ]
 
-    uppercase_ratio = len(uppercase_words) / len(words)
+    if not letters:
+        return 0.0
 
-    return {
-        "uppercase_ratio": uppercase_ratio,
-        "full_caps_tokens": len(uppercase_words)
-    }
+    uppercase = [
+        char for char in letters
+        if char.isupper()
+    ]
+
+    return len(uppercase) / len(letters)
 
 
-def emoji_features(text):
+def count_emojis(text):
     """
-    Detect approximate emoji usage using Unicode ranges.
+    Approximate emoji count using Unicode ranges.
     """
 
-    emoji_pattern = re.compile(
-        "["
-        "\U0001F300-\U0001FAFF"
-        "\U00002700-\U000027BF"
-        "\U0001F1E0-\U0001F1FF"
-        "]+",
-        flags=re.UNICODE
-    )
+    count = 0
 
-    emojis = emoji_pattern.findall(text)
+    for char in text:
 
-    emoji_count = sum(len(group) for group in emojis)
+        codepoint = ord(char)
 
-    return {
-        "emoji_present": int(emoji_count > 0),
-        "emoji_count": emoji_count
-    }
+        if (
+            0x1F300 <= codepoint <= 0x1FAFF
+            or 0x2600 <= codepoint <= 0x27BF
+        ):
+            count += 1
+
+    return count
 
 
-def pragmatic_particle_features(text):
+def has_emoji(text):
+    return int(count_emojis(text) > 0)
+
+
+def count_final_particles(text):
     """
-    Detect candidate pragmatic particles and interjections.
+    Detects Ghanaian pragmatic particles,
+    especially near the end of an utterance.
     """
 
     tokens = re.findall(
-        r"\b[\w']+\b",
+        r"\b[\wÀ-ÿ]+\b",
         text.lower()
     )
 
-    found_particles = [
-        token for token in tokens
-        if token in PRAGMATIC_PARTICLES
-    ]
+    if not tokens:
+        return 0
 
-    final_particle = None
+    count = 0
 
-    if tokens and tokens[-1] in PRAGMATIC_PARTICLES:
-        final_particle = tokens[-1]
+    # Examine the final five tokens
+    final_tokens = tokens[-5:]
 
-    return {
-        "particle_count": len(found_particles),
-        "final_particle_present": int(final_particle is not None),
-        "final_particle": final_particle if final_particle else "none"
-    }
+    for token in final_tokens:
+
+        if token in FINAL_PARTICLES:
+            count += 1
+
+    return count
 
 
-def basic_text_features(text):
-    """
-    Extract general text statistics.
-    """
+def has_final_particle(text):
+    return int(
+        count_final_particles(text) > 0
+    )
 
-    tokens = text.split()
 
-    return {
-        "word_count": len(tokens),
-        "character_count": len(text)
-    }
+def count_interjections(text):
+
+    tokens = re.findall(
+        r"\b[\wÀ-ÿ]+\b",
+        text.lower()
+    )
+
+    return sum(
+        token in INTERJECTIONS
+        for token in tokens
+    )
+
+
+def has_interjection(text):
+    return int(
+        count_interjections(text) > 0
+    )
+
+
+def token_count(text):
+
+    return len(
+        re.findall(
+            r"\b[\wÀ-ÿ]+\b",
+            text
+        )
+    )
+
+
+def repeated_punctuation_ratio(text):
+
+    if not text:
+        return 0.0
+
+    repeated = len(
+        re.findall(
+            r"[!?.,]{2,}",
+            text
+        )
+    )
+
+    return repeated / max(
+        len(text),
+        1
+    )
+
+
+def elongation_ratio(text):
+
+    if not text:
+        return 0.0
+
+    repeated_chars = sum(
+        len(match.group()) - 1
+        for match in re.finditer(
+            r"(.)\1+",
+            text.lower()
+        )
+    )
+
+    return repeated_chars / max(
+        len(text),
+        1
+    )
 
 
 def extract_proxy_features(text):
-    """
-    Extract all prosodic and pragmatic proxy features.
-    """
 
-    features = {}
+    text = str(text)
 
-    features.update(detect_elongation(text))
-    features["max_character_repetition"] = (
-        max_character_repetition(text)
-    )
+    features = {
 
-    features["elongation_index"] = (
-        calculate_elongation_index(text)
-    )
+        # ------------------------------------------
+        # Elongation
+        # ------------------------------------------
 
-    features.update(punctuation_features(text))
-    features.update(capitalization_features(text))
-    features.update(emoji_features(text))
-    features.update(pragmatic_particle_features(text))
-    features.update(basic_text_features(text))
+        "repeated_char_count":
+            count_repeated_characters(text),
+
+        "max_elongation":
+            max_character_elongation(text),
+
+        "elongation_ratio":
+            elongation_ratio(text),
+
+        # ------------------------------------------
+        # Punctuation
+        # ------------------------------------------
+
+        "exclamation_count":
+            count_exclamation_marks(text),
+
+        "question_count":
+            count_question_marks(text),
+
+        "period_count":
+            count_periods(text),
+
+        "ellipsis_count":
+            count_ellipsis(text),
+
+        "punctuation_stack_count":
+            count_punctuation_stacks(text),
+
+        "repeated_punctuation_ratio":
+            repeated_punctuation_ratio(text),
+
+        # ------------------------------------------
+        # Capitalization
+        # ------------------------------------------
+
+        "uppercase_ratio":
+            uppercase_ratio(text),
+
+        # ------------------------------------------
+        # Emojis
+        # ------------------------------------------
+
+        "emoji_count":
+            count_emojis(text),
+
+        "has_emoji":
+            has_emoji(text),
+
+        # ------------------------------------------
+        # Final particles
+        # ------------------------------------------
+
+        "final_particle_count":
+            count_final_particles(text),
+
+        "has_final_particle":
+            has_final_particle(text),
+
+        # ------------------------------------------
+        # Interjections
+        # ------------------------------------------
+
+        "interjection_count":
+            count_interjections(text),
+
+        "has_interjection":
+            has_interjection(text),
+
+        # ------------------------------------------
+        # Basic textual intensity
+        # ------------------------------------------
+
+        "text_length":
+            len(text),
+
+        "token_count":
+            token_count(text),
+
+        "exclamation_question_count":
+            count_exclamation_marks(text)
+            + count_question_marks(text),
+
+        "emoji_punctuation_interaction":
+            count_emojis(text)
+            * (
+                1
+                + count_punctuation_stacks(text)
+            ),
+
+        "elongation_punctuation_interaction":
+            count_repeated_characters(text)
+            * (
+                1
+                + count_punctuation_stacks(text)
+            ),
+    }
 
     return features
